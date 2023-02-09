@@ -25,7 +25,7 @@
   position: relative;
   width: 400%;
   display: flex;
-  animation: slide 12s ease-in infinite;
+  animation: slide 18s ease-out infinite;
 }
 #wrap #main #section1 .container .slide-container .slide-view .slide-wrap .slide {
   position: relative;
@@ -74,7 +74,7 @@
 #wrap #main #section1 .container .slide-container .slide-view .slide-wrap .slide .title div .gap h1 {
   font-size: 100px;
   font-weight: 700;
-  color: #fff;
+  color: #000;
   text-transform: uppercase;
 }
 #wrap #main #section1 .container .slide-container .slide-view .slide-wrap .slide .title div .gap hr {
@@ -95,40 +95,58 @@
   0.00% {
     transform: translateX(0px);
   }
-  8.33% {
+  5.56% {
+    transform: translateX(0px);
+  }
+  11.11% {
     transform: translateX(0px);
   }
   16.67% {
     transform: translateX(0px);
   }
-  25.00% {
+  22.22% {
+    transform: translateX(0px);
+  }
+  27.78% {
     transform: translateX(0px);
   }
   33.33% {
     transform: translateX(-1903px);
   }
-  41.67% {
+  38.89% {
+    transform: translateX(-1903px);
+  }
+  44.44% {
     transform: translateX(-1903px);
   }
   50.00% {
     transform: translateX(-1903px);
   }
-  58.33% {
+  55.56% {
+    transform: translateX(-1903px);
+  }
+  61.11% {
     transform: translateX(-1903px);
   }
   66.67% {
     transform: translateX(-3806px);
   }
-  75.00% {
+  72.22% {
+    transform: translateX(-3806px);
+  }
+  77.78% {
     transform: translateX(-3806px);
   }
   83.33% {
     transform: translateX(-3806px);
   }
-  91.67% {
+  88.89% {
+    transform: translateX(-3806px);
+  }
+  94.44% {
     transform: translateX(-3806px);
   }
   100.00% {
     transform: translateX(-5709px);
   }
-}/*# sourceMappingURL=style.css.map */
+}

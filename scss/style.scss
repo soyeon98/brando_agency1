@@ -21,7 +21,7 @@
                             position: relative;
                             width: 100% * 4;
                             display: flex;
-                            animation: slide 12s ease-in infinite;
+                            animation: slide 18s ease-out infinite;
                             .slide{
                                 position: relative;
                                 z-index: 1;
@@ -59,7 +59,7 @@
                                             h1{
                                                 font-size: 100px;
                                                 font-weight: 700;
-                                                color: #fff;
+                                                color: #000;
                                                 text-transform: uppercase;
                                             }
                                             hr{
@@ -87,20 +87,25 @@
         }
 
         @keyframes slide {
-              0.00%{transform: translateX(-1903px * 0);}
-              8.33%{transform: translateX(-1903px * 0);}
-             16.67%{transform: translateX(-1903px * 0);}
-             25.00%{transform: translateX(-1903px * 0);}
-             33.33%{transform: translateX(-1903px * 1);}
-             41.67%{transform: translateX(-1903px * 1);}
-             50.00%{transform: translateX(-1903px * 1);}
-             58.33%{transform: translateX(-1903px * 1);}
-             66.67%{transform: translateX(-1903px * 2);}
-             75.00%{transform: translateX(-1903px * 2);}
-             83.33%{transform: translateX(-1903px * 2);}
-             91.67%{transform: translateX(-1903px * 2);}
-            100.00%{transform: translateX(-1903px * 3);}
-
+              0.00% {transform: translateX(-1903px*0);}
+              5.56% {transform: translateX(-1903px*0);}
+             11.11% {transform: translateX(-1903px*0);}
+             16.67% {transform: translateX(-1903px*0);}
+             22.22% {transform: translateX(-1903px*0);}
+             27.78% {transform: translateX(-1903px*0);}
+             33.33% {transform: translateX(-1903px*1);}
+             38.89% {transform: translateX(-1903px*1);}
+             44.44% {transform: translateX(-1903px*1);}
+             50.00% {transform: translateX(-1903px*1);}
+             55.56% {transform: translateX(-1903px*1);}
+             61.11% {transform: translateX(-1903px*1);}
+             66.67% {transform: translateX(-1903px*2);}
+             72.22% {transform: translateX(-1903px*2);}
+             77.78% {transform: translateX(-1903px*2);}
+             83.33% {transform: translateX(-1903px*2);}
+             88.89% {transform: translateX(-1903px*2);}
+             94.44% {transform: translateX(-1903px*2);}
+            100.00% {transform: translateX(-1903px*3);}
         }
     }
 }
